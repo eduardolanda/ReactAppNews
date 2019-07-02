@@ -19,11 +19,11 @@ const TabsMenu = props => {
         textColor="primary"
         centered
       >
-        <Tab onClick={props.changeTheImage} label="Boruto" />
-        <Tab onClick={props.changeTheImage} label="Vancouver" />
-        <Tab onClick={props.changeTheImage} label="Your search" />
-        <Tab onClick={props.changeTheImage} label="React" />
-        <Tab onClick={props.changeTheImage} label="Apple" />
+        <Tab onClick={props.changeBoruto} label="Boruto" />
+        <Tab onClick={props.changeVancouver} label="Vancouver" />
+        <Tab onClick={props.changeYourSearch} label="Your search" />
+        <Tab onClick={props.changeReact} label="React" />
+        <Tab onClick={props.changeApple} label="Apple" />
       </Tabs>
     </Paper>
   );

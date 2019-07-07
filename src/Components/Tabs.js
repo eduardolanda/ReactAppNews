@@ -21,7 +21,7 @@ const TabsMenu = props => {
       >
         <Tab onClick={props.changeBoruto} label="Mexico" />
         <Tab onClick={props.changeVancouver} label="Canada" />
-        <Tab onClick={props.changeYourSearch} label="Your search" />
+        <Tab onClick={props.changeYourSearch} label="China" />
         <Tab onClick={props.changeReact} label="USA" />
         <Tab onClick={props.changeApple} label="BRAZIL" />
       </Tabs>

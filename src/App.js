@@ -108,7 +108,7 @@ class App extends Component {
     url = `https://newsapi.org/v2/top-headlines?country=${country}&q=${
       searchWord.value
     }&apiKey=${key}`;
-    alert(searchWord.value);
+    // alert(searchWord.value);
     this.changeOption(searchWord.value);
   };
 
